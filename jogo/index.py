@@ -1,4 +1,7 @@
 from random import randint
+from os import system
+from time import sleep
+system('clear')
 print('''\033[36m
  /$$$$$$$                                  /$$$$$$ /$$$$ 
 | $$__  $$                                |_  $$_//$$  $$
@@ -34,3 +37,6 @@ while True:
         break
 print(f'\033[35mVocê ganhou {c} vezes!\033[m')
 print('\033[33mVolte sempre ;)\033[m')
+sleep(2.5)
+system('clear')
+system('python3 index.py')
