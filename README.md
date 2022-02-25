@@ -8,13 +8,11 @@ Um simples jogo **Par ou Ímpar** feito em *Python*, ***espero que goste!***
 
 ```shell script
 
-apt update
+apt-get update
 
-apt upgrade -y
+apt-get upgrade -y
 
-pkg install python
-
-pkg install git
+apt-get -y install python3.10 git
 
 ```
 
