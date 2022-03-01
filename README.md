@@ -4,6 +4,8 @@
 
 Um simples jogo **Par ou Ímpar** feito em *Python*, ***espero que goste!***
 
+> Dependências: python e git
+
 ## Início
 
 ```shell script
@@ -12,7 +14,7 @@ apt-get update
 
 apt-get upgrade -y
 
-apt-get -y install python3.10 git
+apt-get -y install python git
 
 ```
 
@@ -24,9 +26,7 @@ git clone https://github.com/Spyware0/par-impar
 
 cd par-impar
 
-cd jogo
-
-python3 index.py
+python main.py
 
 ```
 
