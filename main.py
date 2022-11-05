@@ -31,6 +31,7 @@ while dec == 's':
             print(f'\033[1;31mOps, o computador ganhou de vc...{f}')
             print(f'{roxo}Você ganhou {c} vezes!')
             break
+        
         input('\nenter para continuar')
 
     dec = input(f'{per}Deseja continuar? [s/n]{f} ').strip().lower()[0]
